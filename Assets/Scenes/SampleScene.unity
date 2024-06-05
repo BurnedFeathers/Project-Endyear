@@ -229,111 +229,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &348023458
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 348023462}
-  - component: {fileID: 348023461}
-  - component: {fileID: 348023460}
-  - component: {fileID: 348023459}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &348023459
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348023458}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &348023460
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348023458}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &348023461
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348023458}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &348023462
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348023458}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.8199997, y: 0, z: 6.49}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &364449862
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,8 +259,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3332624739930698578}
+  - {fileID: 1620015663062857877}
   - {fileID: 1643185949}
+  - {fileID: 5499215817830763928}
   - {fileID: 650034038}
+  - {fileID: 1408535723052123136}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &632413633
@@ -547,7 +445,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &650034038
 Transform:
   m_ObjectHideFlags: 0
@@ -804,7 +702,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1643185949
 Transform:
   m_ObjectHideFlags: 0
@@ -1261,6 +1159,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!23 &272242496453984111
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785623838349336250}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 288f7d820ef71324c856ec515781df8a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &282736602673504982
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1423,6 +1363,48 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!23 &445961319820149754
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103360268219081263}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 288f7d820ef71324c856ec515781df8a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &495809120895488508
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1960,6 +1942,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426728895222549791}
   m_Mesh: {fileID: -1359189856529635300, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
+--- !u!4 &1408535723052123136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785623838349336250}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.90051615, y: 0, z: 0, w: 0.43482265}
+  m_LocalPosition: {x: -6.609654, y: -30.88124, z: -1.083376}
+  m_LocalScale: {x: 11184.014, y: 11184.014, z: 313.27322}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 364449863}
+  m_LocalEulerAnglesHint: {x: -128.452, y: 0, z: 0}
 --- !u!4 &1432329299093244193
 Transform:
   m_ObjectHideFlags: 0
@@ -2157,6 +2154,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6152078455536067872}
   m_Mesh: {fileID: 7688285020625142007, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
+--- !u!4 &1620015663062857877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103360268219081263}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.28290227, y: 0, z: 0, w: 0.9591488}
+  m_LocalPosition: {x: -6.609654, y: -30.88124, z: -1.083376}
+  m_LocalScale: {x: 10360.982, y: 10360.982, z: 239.07507}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 364449863}
+  m_LocalEulerAnglesHint: {x: -32.867, y: 0, z: 0}
 --- !u!33 &1625024535237058062
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2270,6 +2282,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4207010396556196198}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1785623838349336250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1408535723052123136}
+  - component: {fileID: 2604140867224030117}
+  - component: {fileID: 272242496453984111}
+  - component: {fileID: 2604140867224030118}
+  m_Layer: 0
+  m_Name: Betere ring (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &1802717769542626163
 Transform:
   m_ObjectHideFlags: 0
@@ -2463,6 +2494,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6544208989573663385}
   m_Mesh: {fileID: 1239564544883406434, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
+--- !u!1 &2103360268219081263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1620015663062857877}
+  - component: {fileID: 2437758277344376624}
+  - component: {fileID: 445961319820149754}
+  - component: {fileID: 2437758277344376625}
+  m_Layer: 0
+  m_Name: Betere ring (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!23 &2152110893771388664
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2672,6 +2722,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2437758277344376624
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103360268219081263}
+  m_Mesh: {fileID: -8264766115119967290, guid: c56bfb58b7925704998b6f24e0da3fa0, type: 3}
+--- !u!95 &2437758277344376625
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103360268219081263}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 705f4b57e8dc58e4db3b5d287241bd2d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!33 &2553034487740851023
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2708,6 +2787,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!33 &2604140867224030117
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785623838349336250}
+  m_Mesh: {fileID: -8264766115119967290, guid: c56bfb58b7925704998b6f24e0da3fa0, type: 3}
+--- !u!95 &2604140867224030118
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785623838349336250}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 060c1d80b65006e4782d6276c35eb371, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &2638453415065367835
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2845,7 +2953,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &2726269869145223900
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2918,7 +3026,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 1067329008070087818}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &2790993180227713700
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2934,11 +3042,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3324190174241489457, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &2792272363032899295
@@ -3526,7 +3634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 3982742274428440104}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &3982742274428440106
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3542,11 +3650,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2237167428214565825, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &4035202045772006070
@@ -3952,7 +4060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 3601918056152990478}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &4715016384282139207
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3968,11 +4076,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5408480398718735426, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &4737821102229210216
@@ -4158,7 +4266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 546416647836220652}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &4853677711687297029
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4174,11 +4282,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8367231247473855917, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &4911118814360385240
@@ -4258,7 +4366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 3916801319324629751}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &5024978874489716056
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4274,11 +4382,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6255687079079774844, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &5080297150716241869
@@ -4353,6 +4461,25 @@ GameObject:
   - component: {fileID: 6187557425690875890}
   m_Layer: 0
   m_Name: Cylinder.053
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &5123674754384090914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5499215817830763928}
+  - component: {fileID: 8934851609533088317}
+  - component: {fileID: 6636634021186828023}
+  - component: {fileID: 8934851609533088318}
+  m_Layer: 0
+  m_Name: Betere ring (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4620,6 +4747,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311632868584725433}
   m_Mesh: {fileID: -7994650926060863905, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
+--- !u!4 &5499215817830763928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5123674754384090914}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.6821297, y: 0.18627691, z: -0.18627691, w: 0.6821297}
+  m_LocalPosition: {x: -6.609654, y: -30.88124, z: -1.083376}
+  m_LocalScale: {x: 9644.645, y: 9644.645, z: 161.42593}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 364449863}
+  m_LocalEulerAnglesHint: {x: -59.452, y: 90, z: -90}
 --- !u!23 &5596544260985561022
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4732,7 +4874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 2659104304528968524}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &5707331657616191684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4748,11 +4890,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7835944207358130237, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &5757149325540094416
@@ -4784,7 +4926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 311632868584725433}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &5757149325540094418
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4800,11 +4942,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7994650926060863905, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &5820135802113635034
@@ -4829,7 +4971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 3908302768145863210}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &5820135802113635036
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4845,11 +4987,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8344823704121574938, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &5863053304342597326
@@ -4928,7 +5070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 2262502503475149211}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &5903649532851438200
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4944,11 +5086,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8691780276856062721, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &5931392452426380414
@@ -5030,7 +5172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 2386181356636631674}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &5981000314662145187
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5046,11 +5188,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4026644384297347843, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &6049870178105274997
@@ -5157,7 +5299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 162263550293780072}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &6081724046744106684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5173,11 +5315,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6405055333489277325, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &6136713760840457444
@@ -5234,7 +5376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 6152078455536067872}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &6152078455536067874
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5250,11 +5392,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7688285020625142007, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &6187557425690875888
@@ -5279,7 +5421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 5117713622352341668}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &6187557425690875890
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5295,11 +5437,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8536650243438988614, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &6241613647058227053
@@ -5454,7 +5596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 1553678569341521187}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &6538483642809077456
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5470,11 +5612,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 986923023805056906, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &6544208989573663385
@@ -5533,6 +5675,48 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!23 &6636634021186828023
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5123674754384090914}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 288f7d820ef71324c856ec515781df8a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5673,7 +5857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 6768720503392629461}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &6768720503392629463
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5689,11 +5873,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3525479140033381557, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &6789919492072235437
@@ -5952,7 +6136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 5700169697054726803}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &6931497686098564123
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5968,11 +6152,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4325330369225871407, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &6936196873023888715
@@ -6005,7 +6189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 53009918425004978}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &6942824604253200866
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6021,11 +6205,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4420530465902008808, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &6947714620996602972
@@ -6057,7 +6241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 5462788306992005054}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &6947714620996602974
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6073,11 +6257,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7387706064836869012, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &6955453402948074732
@@ -6124,7 +6308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 2850396221296425710}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &6980699958929122310
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6140,11 +6324,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7259340415223353962, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &7124302167705429052
@@ -6189,7 +6373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 2600658376649508581}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7128527685888161062
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6205,11 +6389,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1916698731132419136, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &7156961669441314072
@@ -6268,7 +6452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 712269263111582491}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7156961669441314074
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6284,11 +6468,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6876221483055658403, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &7165997948857333869
@@ -6313,7 +6497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 614159031316493989}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7165997948857333871
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6329,11 +6513,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -125435165217083709, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &7198917343032451553
@@ -6392,7 +6576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 5607446095506004885}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7198917343032451555
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6408,11 +6592,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1217187441332380930, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &7261372635439339637
@@ -6471,7 +6655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 972412793287461732}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7261372635439339639
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6487,11 +6671,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2076067837965943560, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &7261949283356556945
@@ -6523,7 +6707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 1075527308138024817}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7261949283356556947
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6539,11 +6723,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5512361600001258384, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &7264509883780255249
@@ -6583,7 +6767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 3228013573496416633}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7296682771182645433
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6599,11 +6783,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7757054454094250264, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &7313403872800756369
@@ -6640,7 +6824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 7313403872800756369}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7313403872800756371
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6656,11 +6840,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2696586467331926977, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &7347470333287310681
@@ -6758,7 +6942,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 2280097526865775347}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7365591269673644577
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6774,11 +6958,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2531907223522294176, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &7378413411342239133
@@ -6803,7 +6987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 6644259823226258983}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7378413411342239135
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6819,11 +7003,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6791245462303577121, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &7385868339413712011
@@ -6917,7 +7101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 4094641967390261041}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7494702922320260647
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6933,11 +7117,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3254591967430720901, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &7522807409940045983
@@ -6996,7 +7180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 1677656047041658828}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7522807409940045985
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7012,11 +7196,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3313900681326472401, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &7536761209719495803
@@ -7048,7 +7232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 4556059353342132295}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7536761209719495805
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7064,11 +7248,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3116369807608469340, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &7547126390620770103
@@ -7127,7 +7311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 1823959772564910808}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7547126390620770105
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7143,11 +7327,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5009161486953370047, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &7570782652581150234
@@ -7184,7 +7368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 7570782652581150234}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7570782652581150236
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7200,11 +7384,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1982877014985498672, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &7612401302303621009
@@ -7251,7 +7435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 6544208989573663385}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7620342638797725323
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7267,11 +7451,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1239564544883406434, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &7745130167827716597
@@ -7330,7 +7514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 1721561857789758593}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7745130167827716599
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7346,11 +7530,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8530459506952857525, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &7883854071246304283
@@ -7402,7 +7586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 7958137525117661694}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7958137525117661696
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7418,11 +7602,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7495250032184006240, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &7982234672251988547
@@ -7454,7 +7638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 7460741787100755883}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &7982234672251988549
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7470,11 +7654,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3163171260390484736, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &7997897288971199929
@@ -7548,7 +7732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 4971862101134907585}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8000254032195706746
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7564,11 +7748,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4710428221885757724, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &8011839550765854752
@@ -7633,7 +7817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 8048697098141684588}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8048697098141684590
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7649,11 +7833,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2762472744948416827, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &8068835344596622524
@@ -7690,7 +7874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 8068835344596622524}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8068835344596622526
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7797,7 +7981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 6062212603458610071}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8250849546360652540
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7813,11 +7997,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1766265817381194870, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &8307573628027082057
@@ -7899,7 +8083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 5190284742077471506}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8399544304271434588
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7915,11 +8099,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3277056140333134009, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &8410927506985074546
@@ -7978,7 +8162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 8011839550765854752}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8410927506985074548
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7994,11 +8178,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7837719880912021321, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &8440543107253259702
@@ -8035,7 +8219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 8440543107253259702}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8440543107253259704
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8051,11 +8235,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5731547941117289742, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &8448550514301809136
@@ -8092,7 +8276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 8448550514301809136}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8448550514301809138
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8108,11 +8292,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8838629257163567705, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &8486479953124902501
@@ -8152,7 +8336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 6136713760840457444}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8489766688119892905
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8168,11 +8352,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5443207667662971804, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &8491458674601117750
@@ -8209,7 +8393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 8491458674601117750}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8491458674601117752
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8225,11 +8409,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1230832213447598219, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &8574353381820835754
@@ -8276,7 +8460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 5863053304342597326}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8612107982273082450
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8292,11 +8476,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5746147162638082140, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &8628510235260548818
@@ -8321,7 +8505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 4747977147947553241}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8628510235260548820
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8337,11 +8521,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7108004245302804196, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &8644533483508395434
@@ -8366,7 +8550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 1501384682931979044}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8644533483508395436
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8382,11 +8566,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6240159341419647114, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &8769731837251381544
@@ -8423,7 +8607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 8769731837251381544}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8769731837251381546
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8439,11 +8623,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5607567120872455784, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &8858553905399592720
@@ -8475,7 +8659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 8159982674466779698}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8858553905399592722
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8491,11 +8675,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3237064147268127946, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &8866523164520316833
@@ -8520,7 +8704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 4250235320221202514}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8866523164520316835
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8536,11 +8720,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1231166066402820564, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &8934258461002911953
@@ -8572,7 +8756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 6079533820893995997}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8934258461002911955
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8588,11 +8772,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6564495154122040233, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &8934728390726202653
@@ -8617,7 +8801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 1603061598167471227}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8934728390726202655
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8633,13 +8817,42 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6357616769542740209, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
+--- !u!33 &8934851609533088317
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5123674754384090914}
+  m_Mesh: {fileID: -8264766115119967290, guid: c56bfb58b7925704998b6f24e0da3fa0, type: 3}
+--- !u!95 &8934851609533088318
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5123674754384090914}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9c7a6fc1fd9d7394aafb26175c133041, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!33 &8968489836852235035
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8662,7 +8875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 761504060814912325}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8968489836852235037
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8678,11 +8891,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6520663105694559420, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &8977764777041793058
@@ -8707,7 +8920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 3597554171814859312}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8977764777041793060
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8723,11 +8936,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3741445017020502993, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!4 &8985765806643526601
@@ -8759,7 +8972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 1956878704529226274}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &8985765806643526603
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8775,11 +8988,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3192407847068387414, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1 &9007588599451747721
@@ -8816,7 +9029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 9007588599451747721}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &9007588599451747723
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8832,11 +9045,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4461665956560914720, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &9032236848371416917
@@ -8895,7 +9108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 7124302167705429052}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &9032236848371416919
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8911,11 +9124,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6001565908299411123, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &9146286400283297775
@@ -8940,7 +9153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 1960343286255916178}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &9146286400283297777
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8956,11 +9169,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3390558720134950976, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!23 &9161285112847589814
@@ -9019,7 +9232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 426728895222549791}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &9161285112847589816
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9035,11 +9248,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1359189856529635300, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!33 &9164591653477526032
@@ -9064,7 +9277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DitObject: {fileID: 4996703387441428891}
   Material: {fileID: 2100000, guid: cc19e32c7b27b2b4d94f5bd3b50235f9, type: 2}
-  GaWegDanTime: 2
+  GaWegDanTime: 3
 --- !u!64 &9164591653477526034
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9080,11 +9293,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6239881831769578202, guid: f5a3048f99e4d464697f6cd938136c2e, type: 3}
 --- !u!1660057539 &9223372036854775807
@@ -9097,4 +9310,3 @@ SceneRoots:
   - {fileID: 364449863}
   - {fileID: 2024172537}
   - {fileID: 1582892553}
-  - {fileID: 348023462}

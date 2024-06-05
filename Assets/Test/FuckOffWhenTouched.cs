@@ -25,7 +25,7 @@ public class FuckOffWhenTouched : MonoBehaviour
         if (GaDissolvenDan == true)
         {
             x++;
-            float y = (float)((0.04167 * x) - 1);
+            float y = (float)(((0.04167/(GaWegDanTime-1)) * x) - 1);
 
             DitObject.GetComponent<Renderer>().material.SetFloat("_Dissolve", y);
         }
